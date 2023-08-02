@@ -33,3 +33,6 @@ Server: Docker Engine - Community
 `docker build -t fastapi-image:v1 .`
 
 `docker run -d --name fastapi-container -p 8000:8000 fastapi-image:v1`
+
+
+`docker compose up -d`
