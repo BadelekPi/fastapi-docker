@@ -28,3 +28,8 @@ Server: Docker Engine - Community
  docker-init:
   Version:          0.19.0
   GitCommit:        de40ad0
+
+## Execute
+`docker build -t fastapi-image:v1 .`
+
+`docker run -d --name fastapi-container -p 8000:8000 fastapi-image:v1`
